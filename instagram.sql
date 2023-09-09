@@ -17,7 +17,7 @@ CREATE TABLE Comentarios(
   Foreign Key (artigo_id) REFERENCES Artigos(Id)
 );
 
--- Inserir registros na tabela 
+
 INSERT INTO Artigos(Titulo, Conteudo, DataPublicacao)
 VALUES
     ('Meu pé de laranja Lima', 'Zezé é muito serelepe', '1968-01-01'),
